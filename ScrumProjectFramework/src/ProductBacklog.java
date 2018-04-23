@@ -20,6 +20,7 @@ public class ProductBacklog {
 				currentPriority=storyTopPriority.storyPoint;
 			}
 		}
+		stories.remove(storyTopPriority);
 		return storyTopPriority;
 	}
 }

@@ -12,4 +12,5 @@ public class Story {
 	public void addTask(Task task){
 		this.task.add(task);
 	}
+	
 }
